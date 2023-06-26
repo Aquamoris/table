@@ -1,0 +1,138 @@
+body {
+    background-color: #152331;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #101721;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 75%;
+  }
+  .navbar li {
+    margin-right: 5%;
+    text-align: center;
+  }
+  .navbar a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    text-shadow: #fff 1px 0 10px;
+  }
+  .navbar img {
+    width: 55%;
+    padding-right: 25%;
+  }
+
+  .grid-nav {
+    display: grid;
+    grid-template-columns: 50% 25% auto;
+    grid-template-rows: 1;
+    width: 85%;
+    border-bottom: 0.1px solid #202c39;
+    margin: 0 auto;
+  }
+  .grid-nav  .grid-nav-block1 {
+    grid-column: 1/2;
+    grid-row: 1;
+    border-right: 0.1px solid #202c39;
+    background: linear-gradient(90deg, #101721, #162230, #101721);
+  }
+  .grid-nav  .grid-nav-block2 {
+    grid-column: 2/3;
+    grid-row: 1;
+    padding-left: 5%;
+    border-right: 0.1px solid #202c39;
+  }
+  .grid-nav  .grid-nav-block3 {
+    grid-column: 3/4;
+    grid-row: 1;
+  }
+  .font-700 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .font-300 {
+    font-weight: 300;
+  }
+  .font-100 {
+    font-weight: 100;
+  }
+  .font-400-28 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+  .font-700-30-brands {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.list-of-cars-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .first-details {
+    padding-top: 1%;
+  }
+  .list-of-cars-content  .main-table {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: linear-gradient(90deg, #101721, #162230, #101721);
+    border: 1px solid #fff;
+  }
+  .main-table  th {
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .main-table  tr {
+    text-align: center;
+  }
+  .topcars-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .font-700-55 {
+    font-weight: 700;
+    font-size: 55px;
+  }
+  .font-700-35 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .topcars-content img {
+    width: 100%;
+  }
+
+  .list-of-cars-content__hr {
+    margin-top: 10px;
+  }
+
+button {
+  background-color: rgb(56, 146, 215);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.graph_button {
+  margin-top: 10px;
+}
